@@ -192,6 +192,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
   transition-duration: 500ms;
 }
 .contacts-section-link:hover,

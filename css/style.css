@@ -35,7 +35,7 @@ img {
   font-size: 14px;
   line-height: 17px;
   color: #000;
-  margin: 0px;
+  margin: 0 0 25px 0;
 }
 .about-me-name {
   font-style: normal;
@@ -43,8 +43,9 @@ img {
   font-size: 45px;
   line-height: 55px;
   color: #000000;
-  margin: 30px 0 25px 0;
+  margin: 0px 0 30px 0;
 }
+
 .about-me-discription {
   width: 400px;
   font-style: normal;

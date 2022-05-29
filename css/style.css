@@ -15,27 +15,29 @@ img {
 }
 /*Main content sections*/
 .main-content-section {
-  padding: 100px 90px;
+  padding: 80px 70px 80px 70px;
 }
 .main-content-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 20px;
+  line-height: 25px;
   color: #000000;
   margin: 0;
 }
 /*About-me-section*/
 .about-me-section {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .about-me-profession {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
   color: #000;
   margin: 0 0 25px 0;
+  border-bottom: 1px solid #595959;
+    height: 40px;
 }
 .about-me-name {
   font-style: normal;
@@ -47,20 +49,20 @@ img {
 }
 
 .about-me-discription {
-  width: 400px;
+  /* width: 600px; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  margin: 0;
+  margin: 15px 0 0 0;
 }
 /*My projects section*/
 .my-projects-section {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .my-projects-team-section {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .my-projects-list {
   padding: 0 0 0 19px;
@@ -76,6 +78,7 @@ img {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  margin-right: 3px;
 }
 .my-projects-text {
   font-style: normal;
@@ -102,7 +105,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin: 23px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .my-work-experience-period {
   font-style: normal;
@@ -111,9 +114,6 @@ img {
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 0px;
-}
-.my-work-experience-divider {
-  color: #000;
 }
 .my-work-experience-duties {
   padding: 0 0 0 18px;
@@ -132,7 +132,7 @@ img {
 
 /*Education*/
 .my-education-section {
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
 }
 .my-education-company {
   font-style: normal;
@@ -140,7 +140,7 @@ img {
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
-  margin: 23px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .my-education-position {
   font-style: normal;
@@ -148,7 +148,7 @@ img {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
-  margin: 12px 0 0 0;
+  margin: 10px 0 0 0;
 }
 .my-education-period {
   font-style: normal;
@@ -156,7 +156,7 @@ img {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
-  margin: 10px 0 0 0;
+  margin: 5px 0 0 0;
 }
 
 .my-education-divider {
@@ -184,13 +184,6 @@ img {
   margin: 0 0 20px 0;
 }
 /*Contacts section*/
-.contacts-section-type {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
-  margin-right: 5px;
-}
 .contacts-section-link {
   color: #969797;
   font-style: normal;

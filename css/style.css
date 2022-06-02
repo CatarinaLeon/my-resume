@@ -4,6 +4,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: calc(24/14);
+  color: #595959;
   background-color: #f5f7fa;
 }
 img {
@@ -50,7 +51,6 @@ img {
 }
 
 .about-me-discription {
-  color: #595959;
   margin: 15px 0 0 0;
 }
 /*My projects section*/
@@ -65,18 +65,17 @@ img {
   margin: 15px 0 0 0;
 }
 .my-projects-item {
-  color: #000;
+  padding-left: 3px;
+}
+.my-projects-item::marker{
   font-weight: bold;
+  color: #000000;
 }
 .my-projects-link {
   color: #595959;
   margin-right: 3px;
 }
-.my-projects-text {
-  font-weight: normal; 
-  color: #595959;
-  margin-left: 5px;
-}
+
 .my-projects-bracket {
   font-weight: bold;
   color: #000000;
@@ -103,9 +102,7 @@ img {
   padding: 0 0 0 18px;
   margin: 10px 0 0 0;
 }
-.my-work-experience-duty {
-  color: #595959;
-}
+
 .my-work-experience-company-block {
   margin: 0 15px 0 0;
 }
@@ -134,7 +131,7 @@ img {
 }
 
 .my-education-divider {
-  color: #000;
+  color: #000000;
 }
 
 /*Sidebar section*/
@@ -142,60 +139,36 @@ img {
   background-color: #1e2939;
   width: 370px;
 }
-.contacts-section,
-.tech-skills-section,
-.soft-skills-section,
-.languages-section {
-  margin: 50px 0 0 40px;
+.sidebar-container{
+  padding: 50px 0 0 40px;
 }
 .sidebar-title {
   font-weight: bold;
   font-size: 22px;
   line-height: calc(27/22);
   color: #fff;
-  margin: 0 0 20px 0;
+  margin: 40px 0 20px 0;
 }
-/*Contacts section*/
-.contacts-section-link {
+.sidebar-title:first-of-type{
+  margin-top: 0;
+}
+.sidebar-link {
   color: #969797;
   text-decoration: none;
   transition-duration: 500ms;
 }
-.contacts-section-link:hover,
-.contacts-section-link:focus {
+.sidebar-link:hover,
+.sidebar-link:focus {
   color: #d3653d;
   transition-duration: 500ms;
 }
-/*Tech skills section*/
-.tech-skills-list {
+.sidebar-list {
   padding: 0 0 0 17px;
   margin: 0;
 }
-.tech-skills-item {
-  color: #fb6d3a;
-}
-.tech-skills-item-text {
+.sidebar-item {
   color: #fff;
 }
-/*soft skills section*/
-.soft-skills-list {
-  padding: 0 0 0 15px;
-  margin: 0;
-}
-.soft-skills-item {
+.sidebar-item::marker{
   color: #fb6d3a;
-}
-.soft-skills-item-text {
-  color: #fff;
-}
-/* languages section */
-.languages-list {
-  padding: 0 0 0 15px;
-  margin: 0;
-}
-.languages-item {
-  color: #fb6d3a;
-}
-.languages-item-text {
-  color: #fff;
 }

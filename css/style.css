@@ -10,7 +10,7 @@ body {
 img {
   width: 370px;
 }
-.main-container {
+.main {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
@@ -18,19 +18,19 @@ img {
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-/*Main content sections*/
-.main-content-section {
+/*Content sections*/
+.content-section {
   padding: 80px 70px 80px 70px;
 }
-.main-content-title {
+.content-title {
   font-weight: bold;
   font-size: 20px;
   line-height: calc(25/20);
   color: #000000;
   margin: 0;
 }
-/*About-me-section*/
-.about-me-section {
+/*About-me-container*/
+.about-me-container {
   margin-bottom: 30px;
 }
 .about-me-profession {
@@ -53,11 +53,11 @@ img {
 .about-me-discription {
   margin: 15px 0 0 0;
 }
-/*My projects section*/
-.my-projects-section {
+/*My projects container*/
+.my-projects-container {
   margin-bottom: 30px;
 }
-.my-projects-team-section {
+.my-projects-team-container {
   margin-bottom: 30px;
 }
 .my-projects-list {
@@ -89,6 +89,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: calc(20/16);
+  color: #000000;
   margin: 20px 0 0 0;
 }
 .my-work-experience-period {
@@ -108,7 +109,7 @@ img {
 }
 
 /*Education*/
-.my-education-section {
+.my-education-container {
   margin: 30px 0 0 0;
 }
 .my-education-company {
@@ -140,7 +141,7 @@ img {
   width: 370px;
 }
 .sidebar-container{
-  padding: 50px 0 0 40px;
+  padding: 50px 0 0 50px;
 }
 .sidebar-title {
   font-weight: bold;
@@ -159,7 +160,7 @@ img {
 }
 .sidebar-link:hover,
 .sidebar-link:focus {
-  color: #d3653d;
+  color: #fb6d3a;
   transition-duration: 500ms;
 }
 .sidebar-list {
